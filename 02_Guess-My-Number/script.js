@@ -68,13 +68,13 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = 0;
     }
   }
-}); 
+});
 
 ///// Setting up the again button.....
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   document.querySelector('.score').textContent = score;
-  secretNumber = Math.trunc(Math.random()*20) + 1;
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
   document.querySelector('.number').textContent = '?';
   document.querySelector('.message').textContent = 'Start guessing....';
   document.querySelector('body').style.backgroundColor = '#222';
@@ -82,6 +82,4 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.guess').value = '';
 });
 
-/////// ... the end /////.... completed...////////
-////////////////////////////////////////////////////
-/////
+/////// ... the end /////.... completed...///////////////
