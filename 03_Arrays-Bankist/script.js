@@ -227,5 +227,5 @@ btnSort.addEventListener('click', function (e) {
   sorted = !sorted;
 });
 
-
+/////
 ///// //// THE END OF .... ///// .. COMPLETED....///
