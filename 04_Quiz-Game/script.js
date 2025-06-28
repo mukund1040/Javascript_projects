@@ -166,5 +166,3 @@ function restartQuiz() {
  resultScreen.classList.remove("active");
  startQuiz();
 }
-
-///// t e ///////
