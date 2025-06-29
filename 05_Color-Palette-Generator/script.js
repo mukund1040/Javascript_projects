@@ -163,3 +163,4 @@ document.addEventListener("mousemove", (e) => {
   const y = (e.clientY / window.innerHeight - 0.5) * 50;
   parallaxBg.style.transform = `translate(${x}px, ${y}px)`;
 });
+////////////
